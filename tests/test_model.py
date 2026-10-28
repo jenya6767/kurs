@@ -1,7 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
-from taskcore import TaskBoard, ValidationError
+from gui_compare import TaskBoard, ValidationError
 
 class TaskBoardTests(unittest.TestCase):
     def setUp(self):
